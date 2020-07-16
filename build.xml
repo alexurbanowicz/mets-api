@@ -24,6 +24,7 @@ Common usage:
 ======================================================================
   </description>
 
+  <property name="build.compiler" value="extJavac"/>
   <target name="build_jar"
           description="Compile the source code">
     <mkdir dir="${basedir}/build/classes"/>
